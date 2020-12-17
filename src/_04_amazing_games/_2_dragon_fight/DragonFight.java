@@ -81,15 +81,15 @@ JOptionPane.showMessageDialog(null , "Player Health: " + playerHealth +  "Dragon
 	static void playerLost() {
 		// 11. Tell the player that they have been defeated by the dragon and have no
 		// treasure
-
+JOptionPane.showMessageDialog(null, "You have been killed by the dragon. you get no treasure, and your family is sad. :(");
 		System.exit(0); // This code ends the program
 	}
 
 	static void dragonLost() {
 		// 12. Tell the user that the dragon has been defeated and they get a ton of
 		// gold!
-
-		System.exit(0); // This code ends the program
+JOptionPane.showMessageDialog(null, "you won! you killed the dragon and took all the treasure." );
+System.exit(0);
 	}
 
 }
